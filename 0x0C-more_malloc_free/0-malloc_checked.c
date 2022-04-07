@@ -8,14 +8,13 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *allocate;
+	void *ptr;
 
-	allocate = malloc(b);
-
-	if (allocate == NULL)
+	ptr = malloc(b);
+	if (ptr == NULL)
 	{
 		exit(98);
 	}
-	return (allocate);
+	return (ptr);
 }
 
