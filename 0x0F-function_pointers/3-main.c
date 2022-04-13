@@ -1,13 +1,12 @@
 #include "3-calc.h"
-#include <stdlib.h>
-#include <stdio.h>
-/**
- * main - Prints the result of simple operations
- * @argc: Number of arguments supplied to program
- * @argv: array of pointers to arguments
- * Return: Always 0
- */
 
+/**
+ * main - check the code for Holberton School students.
+ * @argc: argument count.
+ * @argv: argument vector.
+ *
+ * Return: Always 0.
+ */
 int main(int argc, char *argv[])
 {
 	int a, b;
