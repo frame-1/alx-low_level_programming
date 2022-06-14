@@ -1,1 +1,0 @@
-Redo of C tasks
